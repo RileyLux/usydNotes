@@ -1,4 +1,4 @@
 {
-  "template": "Lecture Template.md",
-  "format": "HHHH -- MM-DD"
+  "template": "Init/Lecture Template.md",
+  "format": "HHMM -- MM-DD"
 }

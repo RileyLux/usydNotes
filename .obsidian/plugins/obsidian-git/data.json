@@ -1,6 +1,6 @@
 {
-  "commitMessage": "Backup: {{files}} {date}",
-  "autoCommitMessage": "Backup: {{files}} {date}",
+  "commitMessage": "Backup {{files}} {{date}}",
+  "autoCommitMessage": "Backup {{files}} {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
@@ -39,7 +39,7 @@
   "hunks": {
     "showSigns": false,
     "hunkCommands": false,
-    "statusBar": "disabled"
+    "statusBar": "colored"
   },
   "lineAuthor": {
     "show": false,
