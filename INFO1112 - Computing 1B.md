@@ -14,7 +14,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 | :------: | :-----------------------------------: | :-----: | :------: | :-----: |
 |    1     |          [[1. Introduction]]          |   [x]   |   [x]    |   [x]   |
 |    2     |        [[2. Shell and Processes]]        |   [ ]   |   [x]    |   [x]   |
-|    3     |  [[Emulators, VMs, and Containers]]   |   [ ]   |   [ ]    |   [ ]   |
+|    3     |  [[Emulators, VMs, and Containers]]   |   [ ]   |   [x]    |   [ ]   |
 |  ==4==   |      ==[[Processes and Files]]==      | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==5==   |       ==[[Memory Management]]==       | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==6==   |      ==[[Intro to Networking]]==      | ==[ ]== | ==[ ]==  | ==[ ]== |
