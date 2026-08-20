@@ -1,7 +1,9 @@
 ---
 tags:
-  - Data
-  - Information
+  - SQL
+  - Databases
+  - Queries
+  - Tables
 Lecture: Thursday @ 9am
 Tutorial: Friday @ 12pm | Ed Lesson
 Weekly Quiz: Due in Tutorial

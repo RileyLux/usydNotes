@@ -1,6 +1,8 @@
 ---
 tags:
   - Software_Development
+  - Git
+  - GitHub
 Lecture: Wednesday @ 4pm
 Tutorial: Friday @ 2pm | Ed Lesson
 Weekly Quiz: Due Before Lecture

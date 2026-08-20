@@ -2,6 +2,9 @@
 tags:
   - Data
   - Information
+  - Signals
+  - Transmissions
+  - Communications
 Lecture: Wednesday @ 2pm
 Tutorial: Wednesday @ 4pm | Canvas
 Lab/Practical: Tuesdays @ 12pm (WK 5+)
@@ -15,7 +18,7 @@ Lab/Practical: Tuesdays @ 12pm (WK 5+)
 | :------: | :-------: | :-----: | :------: | :-----: |
 |    1     |           |   [ ]   |   [x]    |    -    |
 |    2     |           |   [ ]   |   [x]    |    -    |
-|    3     |           |   [ ]   |   [ ]    |    -    |
+|    3     |           |   [ ]   | [ ] Half |    -    |
 |  ==4==   |           | ==[ ]== | ==[ ]==  |    -    |
 |  ==5==   |           | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==6==   |           | ==[ ]== | ==[ ]==  |         |
