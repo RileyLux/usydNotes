@@ -12,7 +12,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 
 | **Week** |                    **Topic**                    | Lecture | Tutorial |  Quiz   |
 | :------: | :---------------------------------------------: | :-----: | :------: | :-----: |
-|    1     |        [[1. Introduction\|Introduction]]        |   [x]   |   [x]    |   [x]   |
+|    1     |        [[INFO1112 Lectures/1. Introduction\|Introduction]]        |   [x]   |   [x]    |   [x]   |
 |    2     | [[2. Shell and Processes\|Shell and Processes]] |   [x]   |   [x]    |   [x]   |
 |    3     |       [[Emulators, VMs, and Containers]]        |   [ ]   |   [x]    |   [x]   |
 |    4     |             [[Processes and Files]]             |   [ ]   |   [ ]    |   [ ]   |
