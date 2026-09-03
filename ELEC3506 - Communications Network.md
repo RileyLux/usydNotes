@@ -7,7 +7,7 @@ tags:
   - Communications
 Lecture: Wednesday @ 2pm
 Tutorial: Wednesday @ 4pm | Canvas
-Lab/Practical: Tuesdays @ 12pm (WK 5+)
+Lab/Practical: Tuesdays @ 12pm (WK 6+)
 ---
 **Note:** On weeks with a Lab, DON'T attend the tutorial as well.
 
@@ -20,7 +20,7 @@ Lab/Practical: Tuesdays @ 12pm (WK 5+)
 |    2     |                                              |   [ ]   |   [x]    |      -      |    -    |
 |    3     |                                              |   [ ]   | [ ] Half |      -      |    -    |
 |    4     |                                              |   [ ]   |   [ ]    |      -      |    -    |
-|  ==5==   |                                              | ==[ ]== | ==[ ]==  |    ==-==    |  ==-==  |
+|  5   |                                              | [ ] | [ ]  |    -    |  -  |
 |  ==6==   |                                              | ==[ ]== |  ==-==   |   ==[ ]==   | ==[ ]== |
 |  ==7==   |                                              | ==[ ]== | ==[ ]==  |    ==-==    |  ==-==  |
 |  ==8==   |                                              | ==[ ]== |  ==-==   | ==[ ]<br>== |  ==-==  |
