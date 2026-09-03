@@ -28,3 +28,4 @@ Weekly Quiz: Due Before Lecture
 
 ---
 ### Assessments
+![[Pasted image 20260903163012.png]]
