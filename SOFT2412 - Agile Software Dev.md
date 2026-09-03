@@ -13,7 +13,7 @@ Weekly Quiz: Due Before Lecture
 
 | **Week** |                     **Topic**                      | Lecture | Tutorial |  Quiz   |
 | :------: | :------------------------------------------------: | :-----: | :------: | :-----: |
-|    1     | [[1. Introduction To Software Dev.\|Introduction]] |   [ ]   |   [ ]    |   [x]   |
+|    1     | [[1. Introduction To Software Dev.\|Introduction]] |   [x]   |   [ ]    |   [x]   |
 |    2     |                                                    |   [ ]   |   [ ]    |   [x]   |
 |    3     |                                                    |   [ ]   |   [ ]    |    x    |
 |    4     |                                                    |   [ ]   |   [ ]    |   [ ]   |
