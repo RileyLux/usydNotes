@@ -38,7 +38,8 @@ tags:
 
 ---
 
-| **cat** | retrieve/display contents of file                                                  | cat ./hello.txt |
-| ------- | ---------------------------------------------------------------------------------- | --------------- |
-| echo    | prints arguments                                                                   | echo "hello"    |
+| **cat** | retrieve/display contents of file             | cat ./hello.txt |
+| ------- | --------------------------------------------- | --------------- |
+| echo    | prints arguments                              | echo "hello"    |
+| man     | displays documentation for given UNIX command | echo man        |
 
