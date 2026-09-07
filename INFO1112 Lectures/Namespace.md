@@ -1,0 +1,1 @@
+The name space is a virtual container used to group/organise files so that they do not clash with files from other namespaces
