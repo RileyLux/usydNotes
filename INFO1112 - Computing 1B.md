@@ -18,7 +18,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 |    4     |                        [[4. Docker\|Docker]]                         |   [ ]   |   [ ]    |   [x]   |
 |    5     |          [[5. Processes and Memory\|Processes and Memory]]           |   [ ]   |   [ ]    |   [x]   |
 |    6     |                       [[Intro to Networking]]                        |   [ ]   |   [ ]    |   [x]   |
-|  ==7==   |                ==[[Internet Protocol and Routing]]==                 | ==[ ]== | ==[ ]==  | ==[ ]== |
+|  7   |                [[Internet Protocol and Routing]]                 | [ ] | [ ]  | [ ] |
 |  ==8==   |                     ==[[Domain Name Systems]]==                      | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==9==   |                           ==[[Web API]]==                            | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==10==  |                       ==[[Network Security]]==                       | ==[ ]== | ==[ ]==  | ==[ ]== |

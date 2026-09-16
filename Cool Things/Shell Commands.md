@@ -42,4 +42,5 @@ tags:
 | ------- | --------------------------------------------- | --------------- |
 | echo    | prints arguments                              | echo "hello"    |
 | man     | displays documentation for given UNIX command | echo man        |
+| ps      | Show snapshot of current processes            |                 |
 
