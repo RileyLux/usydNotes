@@ -29,3 +29,4 @@ Weekly Quiz: Due in Tutorial
 
 ---
 ### Assessments
+![[Pasted image 20260919163041.png|582]]
