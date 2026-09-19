@@ -55,7 +55,7 @@
     "currencyEuroPlacement": "before",
     "currencyUseCode": false,
     "fractionGlyphs": false,
-    "syncFrontmatterTags": true,
+    "syncFrontmatterTags": false,
     "replaceLinkMenu": true
   },
   "engagement": {
