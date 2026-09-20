@@ -16,8 +16,8 @@ Weekly Quiz: Due in Tutorial
 | :------: | :------------------------------------------------------------: | :-----: | :------: | :-----: | :------------: |
 |    1     |                   [[1. Overview\|Overview]]                    |   [x]   |   [x]    |    -    |                |
 |    2     | [[2. ER Diagrams and SQL Basics\| ER Diagrams and SQL Basics]] |   [ ]   |   [x]    |    x    |                |
-|    3     |                                                                |   [ ]   |   [ ]    |   [x]   |                |
-|    4     |                                                                |   [ ]   |   [ ]    |    x    |                |
+|    3     | [[3. SQL DDL, Relational Design\|SQL DDL, Relational Design]]  |   [ ]   |   [ ]    |   [x]   |                |
+|    4     |   [[4. Relational Algebra + SQL\|Relational Algebra + SQL]]    |   [ ]   |   [ ]    |    x    |                |
 |    5     |                                                                |   [ ]   |   [ ]    |   [x]   |                |
 |    6     |                                                                |   [ ]   |   [ ]    |   [x]   |                |
 |    7     |                                                                |   [ ]   |   [ ]    |   [ ]   |      [ ]       |
