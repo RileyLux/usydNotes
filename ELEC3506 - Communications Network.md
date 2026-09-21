@@ -16,7 +16,7 @@ Lab/Practical: Tuesdays @ 12pm (WK 6+)
 
 | **Week** |                  **Topic**                   | Lecture | Tutorial |     Lab     |  Quiz   |
 | :------: | :------------------------------------------: | :-----: | :------: | :---------: | :-----: |
-|    1     | [[1. Internet Background\|Internet Preview]] |   [ ]   |   [x]    |      -      |    -    |
+|    1     | [[1. Internet Background\|Internet Preview]] |   [x]   |   [x]    |      -      |    -    |
 |    2     |    [[2. Physical Layer\|Physical Layer]]     |   [ ]   |   [x]    |      -      |    -    |
 |    3     |   [[3. Data Link Layer\|Data Link Layer]]    |   [ ]   | [ ] Half |      -      |    -    |
 |    4     |                                              |   [ ]   |   [ ]    |      -      |    -    |
