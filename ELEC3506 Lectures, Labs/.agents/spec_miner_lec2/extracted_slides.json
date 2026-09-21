@@ -1,0 +1,262 @@
+[
+  {
+    "page_num": 1,
+    "text": "Lecture 2\nPhysical Layer\nELEC 3506/9506 \nCommunication Networks\nDr  Wibowo Hardjawana\nSchool of Electrical and Information \nEngineering"
+  },
+  {
+    "page_num": 2,
+    "text": "Topics of the Day\n Fundamental Concepts\n Digital and Analog Signals\n Signal Encoding and Modulation\n Multiplexing\n Switching\n Transmission Media\n Propagation Modes \n Network Topologies\n2"
+  },
+  {
+    "page_num": 3,
+    "text": "3\nTransmission Medium"
+  },
+  {
+    "page_num": 4,
+    "text": "Digital/Analog Communication\nWe want to send letter A and represent each letter with a combination \nof 0 and 1. There are 26 letters.\n1. How many bits are required to represent all letters? \n2. Efficient transmission? \n3. Reliable transmissions? Sending multiple letters to someone? \n4"
+  },
+  {
+    "page_num": 5,
+    "text": "Fundamental Question\nIs it possible to transmit reliably over a \ncommunication channel at any arbitrary rate? \nIf yes how?\nIn 1948, Claude E. Shannon proved that it is\npossible if and only if the rate is below a certain\nthreshold, called Channel Capacity.\n5"
+  },
+  {
+    "page_num": 6,
+    "text": "Fundamental Question\nLet us assume that the channel capacity if C, we can\ntransmit with any rate R<C with the error probability\napproaching zero, asymptotically.\nFor a communication channel with limited bandwidth B,\nthe objective is to\n1. Maximise the transmission rate R\n2. Or to minimise the error probability for a given rate R\nbelow the capacity\nIn other words, we want to put as many bit as possible in\na signal such that the bits can be distinguished with\nvanishing error probability at the receiver side.\n6"
+  },
+  {
+    "page_num": 7,
+    "text": "Fundamental Question\nIf the received signal power is P and the noise\npower is N and the channel bandwidth is B, the\nchannel capacity can be derived as\nC= B log2(1+P/N)\nB       C  \nPC\nNC\n7What if the channel is noiseless? N=0 and C=inf"
+  },
+  {
+    "page_num": 8,
+    "text": "Fundamental Question\nThe maximum rate is characterised by Nyquist\nTheorem.\nBit rate = 2 B * (number of bits per signal)\nBit rate = 2 B * log2 (L signal level)\nWhat if the channel is noiseless? No limits on the\nnumber of bit levels encoded, but still limited by B\n8"
+  },
+  {
+    "page_num": 9,
+    "text": "Example\nWe have a channel with a 1-MHz bandwidth.\nThe SNR for this channel is 63. What are the\nappropriate bit rate and signal level?\n9"
+  },
+  {
+    "page_num": 10,
+    "text": "Fundamental Concepts\nSignal Element vs. Data Element\n Data Element:\n– Smallest entity that can \nrepresent a piece of \ninformation – the bit \n Signal Element:\n The shortest (time wise) unit \nof a digital signal (frequency \nfor an analog signal)\n Carrier of Data Element\n Analogy: \n Signal Element = The vehicle\n Data Element = No of people \ntravelling in the vehicle\n11\n Signal Elements can have different levels (different types of vehicles)\nr can be thought as a bit rate per signal element"
+  },
+  {
+    "page_num": 11,
+    "text": "Fundamental Concepts\n12\nData Rate vs. Signaling Rate\n Data rate/Bit rate:\n– The number of bits transmitted in one second\n– Measured as “Bits per second” – bps\n Signaling rate/Baud rate/Pulse rate/Modulation rate\n The number of signal elements per second\n The unit is “baud”\n Define bandwidth\n Goal: Increase the data rate (speed of transmission) and decrease the \nsignaling rate (save bandwidth) – increasing spectral efficiency"
+  },
+  {
+    "page_num": 12,
+    "text": "Fundamental Concepts\n Channel:\n In communications, it refers to communications path between two\ncomputers or devices.\n It can refer to the physical medium (the wires) and  TV channels refer \nto particular frequencies at which radio waves are transmitted.\n Propagation Delay:\n The amount of time it takes for a signal to travel from its source to\nits destination.\n Bandwidth (Digital):\n The measurement of the amount of information that can be\ntransmitted per unit of time. \n Digital systems: measured as “Bits per second”\n13"
+  },
+  {
+    "page_num": 13,
+    "text": "Fundamental Concepts\n Baseband signaling\n– Sends data along a single channel by means of voltage fluctuations.\n– Entire bandwidth of the cable is used to carry data.\n Broadband signaling\n– Data is carried on high frequency carrier waves\n– Carrying capacity of medium divided into number of\nsub-channels, such as video, low speed data, high speed data, voice, etc.\n– allows medium to satisfy several communication needs.\n14"
+  },
+  {
+    "page_num": 14,
+    "text": "Digital vs. Analog Signals\n Digital Signal:\n Data (digital or analogue) can be represented by a digital \nsignal\n Bit interval: time required to send one single bit\n Bit rate: Number of bit intervals per second\n15"
+  },
+  {
+    "page_num": 15,
+    "text": "Digital vs. Analogue Signals\nAnalog Signals\n Analog waves could be simple or composite (a combination of \nmore than one simple signal)\n Example for a simple signal is a sine wave.\n Sine wave can be fully described by the following characteristics:\n Peak Amplitude – The absolute value of its highest intensity, \nproportional to the energy it carries.\n Frequency – The rate of change with respect to time\n Phase – The position of the waveform relative to time 0\n Peak and Phase determine the levels in the signal element \n Frequency determines the number of signal elements\n16"
+  },
+  {
+    "page_num": 16,
+    "text": "Amplitude and Frequency\n17"
+  },
+  {
+    "page_num": 17,
+    "text": "Phase\n18"
+  },
+  {
+    "page_num": 18,
+    "text": "Signal Encoding and Modulation \n Digital/analogue Modulation\n ASK, FSK, PSK,\n Digital/digital encoding\n Unipolar encoding \n Polar encoding\n NRZ encoding\n RZ encoding\n Biphase\n– Manchester encoding\n– Differential Manchester encoding\n Analogue/digital Modulation \n PCM, PAM\n Analogue/analogue Modulation – Out of Scope\n AM, FM\n19"
+  },
+  {
+    "page_num": 19,
+    "text": "Digital to Digital Conversion\n20"
+  },
+  {
+    "page_num": 20,
+    "text": "Digital to digital Encoding\nLine Coding\nUnipolar \n NRZ (Non Return to Zero):\n One level of value (same side \nof time axis)\n Problems: Cost and (Clock) \nSynchronization \nPolar\n NRZ (Non Return to Zero):\n Level of the signal is either \npositive or negative\n Problem arises when \ntransmitting a continuous \nstream of 0 or 1.\n21"
+  },
+  {
+    "page_num": 21,
+    "text": "22\nPolar\n Return to Zero:\n Three levels of the signal \nused, +ve, -ve or 0\n Binary 1 represented by +ve\nto 0 and binary 0 \nrepresented by  –ve to 0 (or \nvice versa)\n The transition of the signal at \neach bit is used for \nsynchronization.\n Two signal elements to \nrepresent one bit occupy \nmore bandwidth.  \nDigital to digital Encoding"
+  },
+  {
+    "page_num": 22,
+    "text": "Digital/digital Encoding\n Manchester Encoding:\n Transition at the middle \nused for both \nsynchronization and bit \nrepresentation.\n binary 1 = -ve to +ve\n binary 0 = +ve to -ve\n(or vice versa)\nThis is used for 10Mbps \nEthernet.\n23"
+  },
+  {
+    "page_num": 23,
+    "text": "Digital/digital Encoding\n Differential Manchester \nEncoding:\n Presence or absence of a \ntransition at the beginning of \nthe interval is used to identify \na bit.\n Binary 1 – No transition, \nBinary 0 – Represents a \ntransition\n Transition at the middle used \nonly for synchronization\n24\nThere are many others, such as MLT-3 encoding (Multi-Level Transmit)\nMore details on line encoding for Ethernet https://en.wikipedia.org/wiki/Gigabit_Ethernet\nDigital signals make signals less susceptible to noise\nNote that two signal elements are used for each bit at cost of bandwidth"
+  },
+  {
+    "page_num": 24,
+    "text": "Digital to Analog Conversion\n25"
+  },
+  {
+    "page_num": 25,
+    "text": "Digital/analogue Modulation\n Digital to Analogue Conversion:\n Main mechanisms:\n Amplitude Shift Keying (ASK)\n Frequency Shift Keying (FSK)\n Phase Shift Keying (PSK)\n Quadrature Phase Shift Keying (QPSK)\n Quadrature Amplitude Modulation (QAM) – Combines ASK and \nPSK\n26\nSending digital signals as analogue waveforms (wireless data) limit usage \nof spectrum bandwidth"
+  },
+  {
+    "page_num": 26,
+    "text": "Amplitude Shift Keying (ASK)\n Amplitude of the carrier signal is varied to represent binary 1 \nor 0. Frequency and Phase remains constant. \n Highly susceptible to noise.\n27"
+  },
+  {
+    "page_num": 27,
+    "text": "Binary Amplitude Shift Keying (BASK)\n ASK is normally implemented using only two levels referred to \nas Binary Amplitude Shift Keying (BASK)\n28"
+  },
+  {
+    "page_num": 28,
+    "text": "Frequency Shift Keying (FSK)\n Frequency of the carrier signal is varied to represent binary 1 \nor 0. Amplitude and Phase remains constant.\n The simplest is Binary Frequency Shift Keying (BFSK)\n29"
+  },
+  {
+    "page_num": 29,
+    "text": "Phase Shift Keying (PSK)\n Phase of the carrier signal is varied to represent binary 1 or 0. \nAmplitude and Frequency remains constant.\n The simplest is Binary PSK\n30"
+  },
+  {
+    "page_num": 30,
+    "text": "Quadrature Amplitude \nModulation(QAM)\n 2 bits at a time in a signal element per baud\n 2 Separate PSK modulators\n In phase and Quadrature (out-of-phase)\n Two composite signals created have the \nsame frequency but different phases.\n When added, the resultant wave becomes a \nsignal element with M=4 possible phases: \n45⁰, -45⁰, 135⁰, -135⁰, thus named M-QAM\n31\nIn phase (cosine)\nQuadrature (sine)\n11\n10\n01\n00\n-1\n-1\n1\n1"
+  },
+  {
+    "page_num": 31,
+    "text": "Analog to Digital Conversion\n32"
+  },
+  {
+    "page_num": 32,
+    "text": "Analogue to Digital Modulation \n The most common technique is Pulse \nCode Modulation (PCM)\n PCM is made up of the following \nsteps:\n Sampling\n Quantization\n Encoding\n First step is Sampling\n This takes an analogue signal and \nmeasures the signal at equal \nintervals, called sampling.\n Only transforms the signal to a \nseries of pulses not a full digital \nsignal (PAM Signal). \n33\nDigitalised analog signals (from microphone, camera etc) make signal less \nsusceptible to noise"
+  },
+  {
+    "page_num": 33,
+    "text": "Analogue to Digital Conversion\nSecond step is Quantization\n Quantization assigns values in a \nspecific range to sampled \ninstances.\n A sign (+/-) and a magnitude \nassigned to quantized samples. \n Telephone companies usually \nassign a value from 0 to 127. \nThe third step is to encode the \nquantized values to a stream of \nbits\n Each value is translated to its \nseven-bit binary equivalent and \nthe eighth bit indicates the sign.\n The signal is transformed to a \ndigital signal\n34"
+  },
+  {
+    "page_num": 34,
+    "text": "PCM\n35"
+  },
+  {
+    "page_num": 35,
+    "text": " The accuracy of digital production depends on the number of samples \ntaken.\nQuestion: How many samples are sufficient?\n Nyquist theorem says to ensure accurate reproduction of an analogue \nsignal using PAM, the sampling rate must be at least twice the highest \nfrequency of the original signal. \n Hence, to sample telephone voice with max frequency 4000Hz, we \nneed a sampling rate of 8000 samples per second. \nQuestion: How many Bits per PCM Sample? \n Depends on the level of precision needed, phone companies use 7 bits \nper sample (Plus one bit for sign), Hence 8 bits/1 byte\n Bit Rate = Sampling Rate * No of bits per sample\n=     8000 *     8\n=      64,000 bps = 64 Kbps\n36\nThe Accuracy"
+  },
+  {
+    "page_num": 36,
+    "text": "Recovery of a sampled sine wave for \ndifferent sampling rates\n37\nIntuition: For a sinusoid (sin or cos waveform) you need minimum 2 points for \nwaveform reconstructions"
+  },
+  {
+    "page_num": 37,
+    "text": "Bandwidth Utilization\n38"
+  },
+  {
+    "page_num": 38,
+    "text": "Transmission Modes\n39"
+  },
+  {
+    "page_num": 39,
+    "text": "Multiplexing\n40\nLucy, 2014 , by Luc Besson\nhttps://unisyd-\nmy.sharepoint.com/:v:/g/personal/wibowo_hardjawana_sydney_edu_au/EXj2nITFThZHvxGA6KTOyrQBI2frACU6\n7t7nvRIqN38PsA?e=uwEnq0"
+  },
+  {
+    "page_num": 40,
+    "text": "Multiplexing\n This is the technique that \nallows the simultaneous \ntransmission of multiple \nsignals across a single data \nlink.\n Three main types:\n Frequency –Division \nMultiplexing\n Time-Division Multiplexing\n Statistical Time-Division \nMultiplexing\n41\nLucy\nInfo"
+  },
+  {
+    "page_num": 41,
+    "text": "Frequency Division Multiplexing \n Analogue technique that can be applied when the bandwidth \nof a link is greater than the combined bandwidths of the \nsignals to be transmitted. \n Channels/frequencies must be separated by strips of unused \nbandwidth (guard bands) to prevent signals from overlapping. \n42"
+  },
+  {
+    "page_num": 42,
+    "text": "Time Division Multiplexing \n The usage of a high capacity link is divided into time slots. \nEach device has a time slot. \n Can only be used with a digital signal. \n Also known as synchronous time division multiplexing. \n43"
+  },
+  {
+    "page_num": 43,
+    "text": "Statistical (Asynchronous) Time \nDivision Multiplexing\n STDM guaranties the full capacity of a link.\n The STDM frame is based on a statistical analysis of the \nnumber of input lines that are likely to be transmitting at any \ngiven time. \n The multiplexer scans the input lines until the frame is filled \nand then sends the frame across the link. \n44"
+  },
+  {
+    "page_num": 44,
+    "text": "Digital/Analog Communication\nWe want to send letter A and represent each letter with a combination \nof 0 and 1. There are 26 letters.\n1. How many bits are required to represent all letters? \n2. Efficient transmission? \n3. Reliable transmissions? Sending multiple letters to someone? \n45"
+  },
+  {
+    "page_num": 45,
+    "text": "Switching\n47"
+  },
+  {
+    "page_num": 46,
+    "text": "Switching Techniques\n A switched network\n48"
+  },
+  {
+    "page_num": 47,
+    "text": "Circuit Switched Network\n49"
+  },
+  {
+    "page_num": 48,
+    "text": "Packet Switched Networks\nDatagram networks\n In a packet switched network, there is no resource reservation. \n Resources are allocated on demand on a first come first served basis.\n Each datagram treated independently .\n Also referred as connectionless networks.\n Packet switching is done at the Network Layer and will be discussed later.\n50"
+  },
+  {
+    "page_num": 49,
+    "text": "Packet Switched Networks\nVirtual-Circuit Networks\n A combination of a circuit switched network and a packet switched \nnetwork usually implemented at the data link layer \n Similar to circuit switched networks:\n Three phases for setup, transfer, and teardown \n Resources allocated at setup phase\n All datagrams follow the same path established during the connection \n Keep the sequence/order of flow\n Similar to datagram networks\n Data are packetized in to datagrams\n Two types of VCs:\n Switched virtual circuit – VC is established on demand (modem \nconnection)\n Permanent virtual circuit - VC is established  via prior arrangement (for \ncontrol signalling)\n51"
+  },
+  {
+    "page_num": 50,
+    "text": "Virtual-Circuit Network\n52"
+  },
+  {
+    "page_num": 51,
+    "text": "Comparison\nVirtual circuit approach:\n More complex – circuit establishment is required\n Several control messages have to be exchanged prior to data transmission,\nhowever subsequent packets are treated the same way (no further routing \ndecision is required)\nDatagram approach\n Simpler – no circuit establishment\n No control message needs to be exchanged prior to data transmission\n A routing decision is required on each packet\n Inherently more reliable\nConclusion:\n Virtual circuit approach is more suitable for transferring longer messages\n Datagram approach is better for transmitting short messages\n53"
+  },
+  {
+    "page_num": 52,
+    "text": "Transmission Media\n54"
+  },
+  {
+    "page_num": 53,
+    "text": "Classes of transmission media\n55"
+  },
+  {
+    "page_num": 54,
+    "text": "Communication Media \n Guided Media\n Twisted Pair cabling\n Unshielded Twisted Pair (UTP)\n Shielded Twisted Pair (STP)\n Coaxial Cabling\n Fiber Optic Cabling\n Unguided Media\n Radio Frequency Allocation and Usage\n Terrestrial Microwave\n Satellite Communications\n Geosynchronous Satellites \n Cellular Telephony \n56"
+  },
+  {
+    "page_num": 55,
+    "text": "Twisted Pair Cabling\n Carries a frequency range from 100 Hz to 5 MHz\n A twisted pair consists of two insulated copper wires wrapped around \neach other.\n If the wire is covered with a metal braid to reduce outside electrical \ninterferences, it is called Shielded Twisted Pair (STP) cable.\n If the braid is absent it is called Unshielded Twisted Pair (UTP) cable. \n Ethernet, Token Ring run on grades (1 to 5) of UTP .\n Top grade known as Cat 5 used for data transmission up to 100 Mbps.\n57"
+  },
+  {
+    "page_num": 56,
+    "text": "UTP and STP Cables and Connectors\n58"
+  },
+  {
+    "page_num": 57,
+    "text": "Coaxial cabling\n Carries a frequency range from 100 KHz to 500 MHz\n Composed of an inner conducting wire that is wrapped in \ninsulation which is surrounded by a hollow outer conducting \nwire. Plastic insulation covers the outer conductor. \n Two varieties:\n Standard or thick coax\n(10Base5) \n Thin coax (10Base2)\n59"
+  },
+  {
+    "page_num": 58,
+    "text": "Coaxial Cables and Connectors\n60"
+  },
+  {
+    "page_num": 59,
+    "text": "Fiber Optic Cabling and Propagation  \n Bending of light ray\n Optical Fiber\n61"
+  },
+  {
+    "page_num": 60,
+    "text": "Advantages and Disadvantages\nAdvantages\n Higher bandwidth\n Less signal attenuation\n Immunity to electro magnetic interference\n Resistance to corrosive material\n Light weight\n Greater immunity to tapping\nDisadvantages\n Installation and maintenance\n Unidirectional light propagation\n Cost \n62"
+  },
+  {
+    "page_num": 61,
+    "text": "Unguided Media: Wireless Bands\n63"
+  },
+  {
+    "page_num": 62,
+    "text": "Advantages and Disadvantages\nAdvantages\n High Mobility: Users connect on the move\n No Cable Layout: Saves material and labour costs\n Fast Deployment: Speeds up network setup times.\n Overcomes Terrain: Bypasses physical obstacles easily.\n Easy Scalability: Adds users without new hardware\nDisadvantages\n Weak Security: Signals are easily intercepted\n High Interference: Vulnerable to weather and walls.\n Lower Bandwidth: Delivers slower maximum speeds.\n Fast Attenuation: Signal strength drops rapidly. 64"
+  },
+  {
+    "page_num": 63,
+    "text": "Physical Topology\n65\nTopology refers to the way a network is laid out, either physically or logically."
+  },
+  {
+    "page_num": 64,
+    "text": "Hybrid Topologies\n66"
+  },
+  {
+    "page_num": 65,
+    "text": "Recommended Reading\n67\n• Behrouz A. Forouzan, Data Communications \nand Networking with TCP/IP Protocol Suite, 6th\ned., 2022, Chapter 2"
+  }
+]

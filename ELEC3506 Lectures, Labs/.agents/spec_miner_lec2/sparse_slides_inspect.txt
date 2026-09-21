@@ -1,0 +1,173 @@
+=== SLIDE 3 ===
+  3
+  Transmission Medium
+
+=== SLIDE 10 ===
+  Fundamental Concepts
+  Signal Element vs. Data Element
+   Data Element:
+  – Smallest entity that can
+  represent a piece of
+  information – the bit
+   Signal Element:
+  The shortest (time wise) unit
+  of a digital signal (frequency
+  for an analog signal)
+  Carrier of Data Element
+   Analogy:
+   Signal Element = The vehicle
+   Data Element = No of people
+  travelling in the vehicle
+  11  Signal Elements can have different levels (different types of vehicles)
+  r can be thought as a bit rate per signal element
+
+=== SLIDE 16 ===
+  Amplitude and Frequency
+  17
+
+=== SLIDE 17 ===
+  Phase
+  18
+
+=== SLIDE 19 ===
+  Digital to Digital Conversion
+  20
+
+=== SLIDE 21 ===
+  22
+  Polar
+   Return to Zero:
+  Three levels of the signal
+  used, +ve, -ve or 0
+  Binary 1 represented by +ve
+  to 0 and binary 0
+  represented by  –ve to 0 (or
+  vice versa)
+  The transition of the signal at
+  each bit is used for
+  synchronization.
+  Two signal elements to
+  represent one bit occupy
+  more bandwidth.
+  Digital to digital Encoding
+
+=== SLIDE 24 ===
+  Digital to Analog Conversion
+  25
+
+=== SLIDE 27 ===
+  Binary Amplitude Shift Keying (BASK)
+  ASK is normally implemented using only two levels referred to
+  as Binary Amplitude Shift Keying (BASK)
+  28
+
+=== SLIDE 28 ===
+  Frequency Shift Keying (FSK)
+  Frequency of the carrier signal is varied to represent binary 1
+  or 0. Amplitude and Phase remains constant.
+  The simplest is Binary Frequency Shift Keying (BFSK)
+  29
+
+=== SLIDE 29 ===
+  Phase Shift Keying (PSK)
+  Phase of the carrier signal is varied to represent binary 1 or 0.
+  Amplitude and Frequency remains constant.
+  The simplest is Binary PSK
+  30
+
+=== SLIDE 30 ===
+  Quadrature Amplitude
+  Modulation(QAM)
+  2 bits at a time in a signal element per baud
+  2 Separate PSK modulators
+  In phase and Quadrature (out-of-phase)
+  Two composite signals created have the
+  same frequency but different phases.
+  When added, the resultant wave becomes a
+  signal element with M=4 possible phases:
+  45⁰, -45⁰, 135⁰, -135⁰, thus named M-QAM
+  31 In phase (cosine)
+  Quadrature (sine)
+  11
+  10
+  01
+  00
+  -1
+  -1
+  1
+  1
+
+=== SLIDE 31 ===
+  Analog to Digital Conversion
+  32
+
+=== SLIDE 34 ===
+  PCM
+  35
+
+=== SLIDE 36 ===
+  Recovery of a sampled sine wave for
+  different sampling rates
+  37 Intuition: For a sinusoid (sin or cos waveform) you need minimum 2 points for
+  waveform reconstructions
+
+=== SLIDE 37 ===
+  Bandwidth Utilization
+  38
+
+=== SLIDE 38 ===
+  Transmission Modes
+  39
+
+=== SLIDE 45 ===
+  Switching
+  47
+
+=== SLIDE 46 ===
+  Switching Techniques
+  A switched network
+  48
+
+=== SLIDE 47 ===
+  Circuit Switched Network
+  49
+
+=== SLIDE 50 ===
+  Virtual-Circuit Network
+  52
+
+=== SLIDE 52 ===
+  Transmission Media
+  54
+
+=== SLIDE 53 ===
+  Classes of transmission media
+  55
+
+=== SLIDE 56 ===
+  UTP and STP Cables and Connectors
+  58
+
+=== SLIDE 58 ===
+  Coaxial Cables and Connectors
+  60
+
+=== SLIDE 59 ===
+  Fiber Optic Cabling and Propagation
+  Bending of light ray
+  Optical Fiber
+  61
+
+=== SLIDE 61 ===
+  Unguided Media: Wireless Bands
+  63
+
+=== SLIDE 63 ===
+  Physical Topology
+  65
+  Topology refers to the way a network is laid out, either physically or logically.
+
+=== SLIDE 64 ===
+  Hybrid Topologies
+  66
+
