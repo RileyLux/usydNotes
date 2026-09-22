@@ -19,7 +19,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 |    5     |          [[5. Processes and Memory\|Processes and Memory]]           |   [x]   |   [ ]    |   [x]   |
 |    6     |                           [[6. Git\|Git]]                            |   [ ]   |   [ ]    |   [x]   |
 |    7     |                    [[7. Networking\|Networking]]                     |   [ ]   |   [ ]    |   [ ]   |
-|  ==8==   |                     ==[[Domain Name Systems]]==                      | ==[ ]== | ==[ ]==  | ==[ ]== |
+|  8   |                     [[Domain Name Systems]]                      | [ ] | [ ]  | [ ] |
 |  ==9==   |                           ==[[Web API]]==                            | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==10==  |                       ==[[Network Security]]==                       | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==11==  |                  ==[[Multimedia Representation]]==                   | ==[ ]== | ==[ ]==  | ==[ ]== |
