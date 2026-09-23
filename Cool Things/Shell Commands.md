@@ -38,10 +38,11 @@ tags:
 
 ---
 
-| **cat**             | retrieve/display contents of file                               | cat ./hello.txt |
-| ------------------- | --------------------------------------------------------------- | --------------- |
-| echo                | prints arguments                                                | echo "hello"    |
-| echo \$$<br>echo $! | Prints current process<br>Prints most recent background process |                 |
-| man                 | displays documentation for given UNIX command                   | echo man        |
-| ps                  | Show snapshot of current processes                              |                 |
+| **cat**             | retrieve/display contents of file                                                                    | cat ./hello.txt |
+| ------------------- | ---------------------------------------------------------------------------------------------------- | --------------- |
+| echo                | prints arguments                                                                                     | echo "hello"    |
+| echo \$$<br>echo $! | Prints current process<br>Prints most recent background process                                      |                 |
+| man                 | displays documentation for given UNIX command                                                        | echo man        |
+| ps                  | Show snapshot of current processes                                                                   |                 |
+| &<br>fg             | Use at the end of an argument to send to background<br>Bring a background argument to the foreground |                 |
 
