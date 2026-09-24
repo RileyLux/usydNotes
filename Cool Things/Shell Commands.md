@@ -45,4 +45,5 @@ tags:
 | man                 | displays documentation for given UNIX command                                                        | echo man        |
 | ps                  | Show snapshot of current processes                                                                   |                 |
 | &<br>fg             | Use at the end of an argument to send to background<br>Bring a background argument to the foreground |                 |
+| wc                  | Counts the number of lines, words, bytes                                                             | -l, -w, -c      |
 
