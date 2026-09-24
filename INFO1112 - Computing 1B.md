@@ -16,7 +16,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 |    2     |           [[2. Shell and Processes\|Shell and Processes]]            |   [x]   |   [x]    |   [x]   |
 |    3     | [[3. Emulators, VMs and Containers\|Emulators, VMs, and Containers]] |   [x]   |   [x]    |   [x]   |
 |    4     |                        [[4. Docker\|Docker]]                         |   [x]   |   [x]    |   [x]   |
-|    5     |          [[5. Processes and Memory\|Processes and Memory]]           |   [x]   |   [ ]    |   [x]   |
+|    5     |          [[5. Processes and Memory\|Processes and Memory]]           |   [x]   |   [x]    |   [x]   |
 |    6     |                           [[6. Git\|Git]]                            |   [ ]   |   [ ]    |   [x]   |
 |    7     |                    [[7. Networking\|Networking]]                     |   [ ]   |   [ ]    |   [ ]   |
 |  8   |                     [[Domain Name Systems]]                      | [ ] | [ ]  | [ ] |
