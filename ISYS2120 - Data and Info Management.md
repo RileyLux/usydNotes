@@ -20,7 +20,7 @@ Weekly Quiz: Due in Tutorial
 |    4     |   [[4. Relational Algebra + SQL\|Relational Algebra + SQL]]    |   [ ]   |   [ ]    |    x    |                |
 |    5     |                                                                |   [ ]   |   [ ]    |   [x]   |                |
 |    6     |                                                                |   [ ]   |   [ ]    |   [x]   |                |
-|    7     |                                                                |   [ ]   |   [ ]    |   [ ]   |      [ ]       |
+|    7     |                                                                |   [ ]   |   [ ]    |   [ ]   |      [x]       |
 |    8     |                                                                |   [ ]   |   [ ]    |   [ ]   |                |
 |    9     |                                                                |   [ ]   |   [ ]    |   [ ]   |                |
 |  10  |                                                                | [ ] | [ ]  | [ ] |                |
