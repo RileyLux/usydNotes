@@ -20,8 +20,8 @@ Weekly Quiz: Due End of Week (Next Monday)
 |    6     |                           [[6. Git\|Git]]                            |   [x]   |   [x]    |   [x]   |
 |    7     |                    [[7. Networking\|Networking]]                     |   [x]   |   [x]    |   [x]   |
 |    8     |               [[8. More Networking\|More Networking]]                |   [x]   |   [x]    |   [x]   |
-|  9   |                           [[Web API]]                            | [ ] | [ ]  | [ ] |
-|  ==10==  |                       ==[[Network Security]]==                       | ==[ ]== | ==[ ]==  | ==[ ]== |
+|    9     |                             [[Web API]]                              |   [ ]   |   [ ]    |    x    |
+|    10    |                         [[Network Security]]                         |   [ ]   |   [ ]    |   [ ]   |
 |  ==11==  |                  ==[[Multimedia Representation]]==                   | ==[ ]== | ==[ ]==  | ==[ ]== |
 |  ==12==  |                     ==[[Performance Analysis]]==                     | ==[ ]== | ==[ ]==  | ==[ ]== |
 
