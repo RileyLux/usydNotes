@@ -6,4 +6,6 @@
 
 ### General Vids:
 - Encryption
+- How do USBs keep storage
+- 
 
