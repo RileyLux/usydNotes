@@ -16,7 +16,7 @@ Weekly Quiz: Due Before Lecture
 |    1     | [[1. Introduction To Software Dev.\|Introduction]] |   [x]   |   [x]    |   [x]   |
 |    2     |                                                    |   [x]   |   [x]    |   [x]   |
 |    3     |                                                    |   [x]   |   [x]    |    x    |
-|    4     |                                                    |   [ ]   |   [ ]    |   [x]   |
+|    4     |                                                    |   [ ]   |   [x]    |   [x]   |
 |    5     |                                                    |   [ ]   |   [ ]    |   [x]   |
 |    6     |                                                    |   [ ]   |   [x]    |    x    |
 |    7     |                                                    |   [ ]   |   [ ]    |    x    |
