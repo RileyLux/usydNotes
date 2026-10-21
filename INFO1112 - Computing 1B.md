@@ -22,7 +22,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 |    8     |               [[8. More Networking\|More Networking]]                |   [x]   |   [x]    |   [x]   |
 |    9     |                             [[Web API]]                              |   [ ]   |   [ ]    |    x    |
 |    10    |                         [[Network Security]]                         |   [ ]   |   [ ]    |   [ ]   |
-|  ==11==  |                  ==[[Multimedia Representation]]==                   | ==[ ]== | ==[ ]==  | ==[ ]== |
+|  11  |                  [[Multimedia Representation]]                   | [ ] | [ ]  | [ ] |
 |  ==12==  |                     ==[[Performance Analysis]]==                     | ==[ ]== | ==[ ]==  | ==[ ]== |
 
 ---
