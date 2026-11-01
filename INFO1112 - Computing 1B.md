@@ -23,7 +23,7 @@ Weekly Quiz: Due End of Week (Next Monday)
 |    9     |                             [[Web API]]                              |   [ ]   |   [ ]    |    x    |            |
 |    10    |                         [[Network Security]]                         |   [ ]   |   [ ]    |   [ ]   |            |
 |    11    |                    [[Multimedia Representation]]                     |   [ ]   |   [ ]    |   [ ]   |            |
-|    12    |                       [[Performance Analysis]]                       |   [ ]   |   [ ]    |   [ ]   |    [ ]     |
+|    12    |                       [[Performance Analysis]]                       |   [ ]   |   [ ]    |   [ ]   |    [x]     |
 |  ==13==  |                                                                      | ==[ ]== | ==[ ]==  | ==[ ]== |            |
 
 ---
