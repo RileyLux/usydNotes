@@ -3,11 +3,12 @@
 2. Setting custom icons for desktop/file explorer
 3. Clipboard history + emojis on windows
 4. How to activate windows
+5. Wallpaper Engine(Steam)
 
 
 ### General Vids:
 - Encryption
 - How do USBs keep storage
 - Software versioning (sever, senver, calver, Tex versioning, Metafont versioning)
-- 
+- Rubber Ducking (Used for studying)
 
