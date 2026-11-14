@@ -16,9 +16,7 @@
     "autoCapitalize": true,
     "removeDoubledWords": true,
     "extraAbbreviations": [],
-    "userDictionary": [
-      "senver"
-    ],
+    "userDictionary": [],
     "userDictionaryUserAdded": [],
     "suggestUserDictionary": true,
     "undoAddsToDictionary": true,
